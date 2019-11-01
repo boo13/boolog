@@ -1,0 +1,18 @@
+{% extends "shared/_layout.html" %}
+{% block title %}Boolog the log by Boo{%  endblock %}
+
+{% block main_content %}
+
+    <h1>Boolog: Blog Log by Boo</h1>
+    <h2>This is an H2</h2>
+
+    {% for b in blog_posts %}
+        <span class="title">
+            <a href="/project/{{ b.id }}">{{ b.id }}</a>
+            {{b.name}}
+        </span>
+        <span class="date">
+            {{b.date}}
+        </span>
+    {% endfor %}
+{%  endblock %}
