@@ -1,5 +1,6 @@
 flask
 flask_wtf
+gunicorn
 sqlalchemy
 mongoengine
 progressbar2
