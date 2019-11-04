@@ -1,3 +1,7 @@
 -r requirements.txt
 black
 pytest
+opencv-contrib-python
+torch
+torchvision
+mypy
