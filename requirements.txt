@@ -1,2 +1,12 @@
 flask
 sqlalchemy
+mongoengine
+progressbar2
+python-dateutil
+pytz
+opencv-contrib-python
+streamlink
+loguru
+torch
+torchvision
+mypy
